@@ -9,9 +9,11 @@ import background from '../assets/images/plane3.jpg';
 function ErrorWorld(props) {
     return (
         <div className="container-fluid" style={styling.bg}>
-            <h1 style={styling.heading}>
-                You are on the wrong planet!!
-            </h1>
+           <h2 style={styling.er}>
+            "We're sorry, but the website you are trying to reach is currently unavailable. We apologize for any inconvenience this may cause. Our team is working to resolve the issue as quickly as possible. Please try again later or contact us if you continue to experience problems accessing the site. 
+      
+            </h2>
+            <h1 style={styling.heading}>Thank you for your patience and understanding."</h1>
         </div>
     );
 }
@@ -22,13 +24,22 @@ let styling = {
         width : "100%",
         height : '100vh'
     },
-    heading : {
+   heading : {
+        textAlign: "center",
+        position: "relative",
+        top: "35%",
+        fontFamily: "fantasy",
+        border: "2px #333333",
+        color: "red",
+        // fontSize:"100px"
+    },
+    er:{
         textAlign: "center",
         position: "relative",
         top: "15%",
-        fontFamily: "fantasy",
+        // fontFamily: "fantasy",
         border: "2px #333333",
-        color: "#333333"
+        color:"black"
     }
 }
 
