@@ -4,8 +4,12 @@ import ChetanInfoRight from "./ChetanInfoRight";
 import Footer from "./Footer";
 import Header from "./Header";
 
-import Kate from "../assets/images/Kate.jpeg";
 
+
+/**
+ * @author Chetan
+ * this component renders home page for admin
+ */
 class Contact extends Component {
   render() {
     return (

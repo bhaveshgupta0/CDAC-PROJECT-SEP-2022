@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
-
+/**
+ * @author Chetan
+ * this component renders home page for admin
+ */
 class ChetanInfoRight extends Component {
   render() {
     return (

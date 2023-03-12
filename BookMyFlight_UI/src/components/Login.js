@@ -63,15 +63,14 @@ export default class Login extends Component {
           style={{
             backgroundImage: `url(${planeBG})`,
             overflow: "hidden",
-            height: '800px',
-           
+            height: "auto",
           }}
         >
           <div class="row mb-4">
             <div class="col-lg-8 mx-auto text-center">
               <h1
                 class="display-3"
-                style={{ color: "white", fontWeight: "50pt",   }}
+                style={{ color: "white", fontWeight: "50pt" }}
               >
                 Login
               </h1>
@@ -79,16 +78,19 @@ export default class Login extends Component {
           </div>
 
           <div class="row">
-            <div class="col-md-4 mx-auto">
-              <div class="card " style={{width: '700px'}}>
+            <div class="col c  col-md-6  mx-auto">
+              <div class="card " style={{ width: "700px" }}>
                 <div class="card-header">
-                  <div class="bg-white shadow-sm pt-4 pl-2 pr-2 pb-2" >
-                    <div class=" text-white tab-content"  style={{backgroundColor:"#000033"}}>
+                  <div class="bg-white shadow-sm pt-4 pl-2 pr-2 pb-2">
+                    <div
+                      class=" text-white tab-content"
+                      style={{ backgroundColor: "#000033" }}
+                    >
                       <div class="tab-pane fade show active pt-3">
                         <form>
-                          <div class="form-group" >
-                            <h6 >
-                              <span class="form-label" >Username</span>
+                          <div class="form-group">
+                            <h6>
+                              <span class="form-label">Username</span>
                             </h6>
                             <input
                               type="text"
@@ -98,7 +100,7 @@ export default class Login extends Component {
                                 this.setState({ username: e.target.value })
                               }
                               class="form-control"
-                              style={{backgroundColor:"#EEE8AA"} }
+                              style={{ backgroundColor: "#EEE8AA" }}
                             />
                           </div>
                           <div class="form-group">
@@ -117,7 +119,7 @@ export default class Login extends Component {
                                 })
                               }
                               class="form-control"
-                              style={{backgroundColor:"#EEE8AA"} }
+                              style={{ backgroundColor: "#EEE8AA" }}
                             />
                           </div>
 
