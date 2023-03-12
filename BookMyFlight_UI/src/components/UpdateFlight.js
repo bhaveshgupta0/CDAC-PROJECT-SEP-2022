@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 /**
- * @author Dhananjay
+ * @author Bhavesh
  * this component takes input from admin for updating existing flight
  * FlightServiceRest : Service for updating flight in the database
 */
