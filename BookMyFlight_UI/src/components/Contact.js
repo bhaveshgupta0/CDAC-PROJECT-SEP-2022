@@ -20,15 +20,8 @@ class Contact extends Component {
               <div class="col">
                 <div class="p-5">
                   <div>
+                    
                     <ChetanInfo
-                      name="Chetan Nagmoti"
-                      email="chetanbnagmoti@gamil.com"
-                      photo="https://avatars.githubusercontent.com/u/119286565?v=4"
-                      mobile="8390569860"
-                      gitHub="https://github.com/chetanbnagmoti"
-                      dese="Software Developer"
-                    />
-                    <ChetanInfoRight
                       name="Bhavesh Gupta"
                       email="bhaveshgupta027@gamil.com"
                       photo="https://avatars.githubusercontent.com/u/119398229?v=4"
@@ -36,8 +29,16 @@ class Contact extends Component {
                       gitHub="https://github.com/bhaveshgupta0"
                       dese="Software Developer"
                     />
+                    <ChetanInfoRight
+                      name="Chetan Nagmoti "
+                      email="chetanbnagmoti@gmail.com"
+                      photo="https://avatars.githubusercontent.com/u/119286565?v=4"
+                      mobile="8390569860"
+                      gitHub="https://github.com/chetanbnagmoti"
+                      dese="Software Developer"
+                    />
                     <ChetanInfo
-                      name=" Sudeep Suryawanshi"
+                      name="Sudeep Suryawanshi"
                       email="suryawanshisudeep97@gmail.com"
                       photo="https://avatars.githubusercontent.com/u/119395292?s=400&u=d99c219a4900528ae534359d2e04386d1593d21e&v=4"
                       mobile="8408920708"
