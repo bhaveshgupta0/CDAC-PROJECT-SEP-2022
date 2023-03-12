@@ -66,7 +66,7 @@ function Header(props) {
         </Link>
       </li>
       {localStorage.getItem("user") &&
-       (
+        JSON.parse(localStorage.getItem("user")).isadmin === 0 && (
           <li className="nav-item nav-link text-info">
             <button onClick={onTickets} className="btn btn-outline-light">
               BookingHistory
