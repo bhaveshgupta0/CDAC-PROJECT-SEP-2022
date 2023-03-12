@@ -1,10 +1,10 @@
 import React from "react";
 import { Link, useHistory } from "react-router-dom";
-import logo from "../assets/logo/travelling.png";
+
 
 /**
  *
- * @author Bhavesh, Sudeep
+ * @author Bhavesh, Sudeep ,Chetan
  * This component renders header and uses condition rendering for differnt users/ non user
  */
 function Header(props) {
@@ -65,6 +65,11 @@ function Header(props) {
           <button className="btn btn-outline-light">Home</button>
         </Link>
       </li>
+      <li className="nav-item">
+        <Link className="nav-link text-info" to="/contact">
+          <button className="btn btn-outline-light">CONTACT US</button>
+        </Link>
+      </li>
       {localStorage.getItem("user") &&
         (
           <li className="nav-item nav-link text-info">
@@ -73,6 +78,7 @@ function Header(props) {
             </button>
           </li>
         )}
+        
 
       {localStorage.getItem("user") &&
         JSON.parse(localStorage.getItem("user")).isadmin === 1 && (
