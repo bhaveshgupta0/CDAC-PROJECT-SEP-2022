@@ -3,7 +3,7 @@ import background from '../assets/images/planebg1.jpg';
 
 /**
  * 
- * @author Vikrant
+ * @author Chetan
  * this component renders error page for wrong url
  */
 function ErrorWorld(props) {
