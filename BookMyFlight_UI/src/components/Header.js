@@ -65,11 +65,6 @@ function Header(props) {
           <button className="btn btn-outline-light">Home</button>
         </Link>
       </li>
-      <li className="nav-item">
-        <Link className="nav-link text-info" to="/contact">
-          <button className="btn btn-outline-light">CONTACT US</button>
-        </Link>
-      </li>
       {localStorage.getItem("user") &&
         (
           <li className="nav-item nav-link text-info">
