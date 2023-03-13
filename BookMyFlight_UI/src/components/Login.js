@@ -6,7 +6,7 @@ import Header from "./Header";
 import { Link } from "react-router-dom";
 
 /**
- * @author Bhavesh
+ * @author Chetan, Bhavesh
  * This component will render Login page for the app
  * UserService: Service for authenticating user
  */
@@ -54,6 +54,18 @@ export default class Login extends Component {
     }
   };
 
+  forgotPassword = () => {
+    if (!this.state.isAdmin) {
+      {
+        localStorage.getItem("user");
+        if (this.state.isadmin === 0) 
+        this.props.history.push("/register");
+        else this.props.history.push("/register");
+      }
+    } else {
+      alert("All fields are required");
+    }
+  };
   render() {
     return (
       <div class="pt-5">
@@ -134,6 +146,7 @@ export default class Login extends Component {
                               Login
                             </button>
                           </div>
+                         
                         </form>
                       </div>
                       <br />
@@ -156,6 +169,18 @@ export default class Login extends Component {
                           className="btn  btn-link btn-block"
                         >
                           New User? Register Now!
+                        </button>
+                      </Link>{" "}
+                    </div>
+                  </div>
+                  <div classNameName="form-group">
+                    <div>
+                      <Link className="card-link" to="/forgotPassword">
+                        <button
+                          type="button"
+                          className="btn  btn-link btn-block"
+                        >
+                          Forgot-Password
                         </button>
                       </Link>{" "}
                     </div>
