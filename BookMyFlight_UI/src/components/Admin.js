@@ -4,7 +4,7 @@ import planeTicket from "../assets/logo/plane-ticket.png";
 import plane from '../assets/images/travel1.jpg';
 import Header from './Header';
 import Footer from './Footer';
-
+import Contact from '/Contact';
 /**
  * @author Bhavesh
  * this component renders home page for admin
