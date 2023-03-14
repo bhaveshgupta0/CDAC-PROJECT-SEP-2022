@@ -213,7 +213,7 @@ export default class Register extends Component {
                               </span>
                             </h6>
                             <input
-                              type="text"
+                              type="password"
                               name="cpasswd"
                               onChange={this.handlePass}
                               className="form-control"
