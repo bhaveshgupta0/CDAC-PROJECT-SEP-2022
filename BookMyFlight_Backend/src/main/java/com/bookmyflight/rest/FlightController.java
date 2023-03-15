@@ -27,7 +27,7 @@ import com.bookmyflight.exception.FlightException;
 import com.bookmyflight.service.FlightService;
 
 
-@CrossOrigin()
+@CrossOrigin(origins="http://localhost:3000")
 @EnableTransactionManagement
 @RestController
 @RequestMapping("/flight")
