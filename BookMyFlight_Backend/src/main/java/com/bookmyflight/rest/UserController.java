@@ -22,7 +22,7 @@ import com.bookmyflight.exception.UserException;
 import com.bookmyflight.service.UserService;
 
 
-@CrossOrigin()
+@CrossOrigin(origins="http://localhost:3000")
 @RestController
 public class UserController {
 	
