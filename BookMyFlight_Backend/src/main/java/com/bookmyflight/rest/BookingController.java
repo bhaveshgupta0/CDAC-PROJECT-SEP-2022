@@ -27,7 +27,7 @@ import com.bookmyflight.service.FlightService;
 
 
 
-@CrossOrigin()
+@CrossOrigin(origins="http://localhost:3000")
 @RestController
 @RequestMapping("/book")
 public class BookingController {
